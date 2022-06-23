@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+    background-image: url("../../images/back.jpg");
+
+    /*background-attachment Property*/
+
+    /*background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;*/
+    
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(106, 189, 228);
+  }
+  #para1 {
+    text-align: center;
+    color:rgb(104, 104, 243);
+  }
+  .center {
+    text-align: center;
+    color: rgb(238, 177, 22);
+  }
+  /*only <p> elements with class="center"*/
+  p.center1 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  p.large {
+    font-size: 300%;
+  }
+  /* CSS Universal Selector
+  * {
+    text-align: center;
+    color: blue;
+  }*/
+
+  div {
+    background-color: #1e90ff;
+  }
+  
+  div.first {
+    opacity: 0.1;
+  }
+  
+  div.second {
+    opacity: 0.3;
+  }
+  
+  div.third {
+    opacity: 0.6;
+  }
+ 
+
+  
